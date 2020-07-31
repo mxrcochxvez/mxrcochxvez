@@ -1,6 +1,5 @@
 ![My Header](https://i.imgur.com/hH7jvOT.png)
 
-### Hi there 👋
 ## My name is Marco Chavez
 
 and I am a JavaScript fanatic! I spend most of my time writing small applications in React, or fullstack applications with NodeJS.
