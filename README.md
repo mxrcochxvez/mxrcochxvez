@@ -1,3 +1,5 @@
+<img src="./imgs/GitHubHeader.png" alt="My Header" />
+
 ### Hi there 👋
 
 <!--
