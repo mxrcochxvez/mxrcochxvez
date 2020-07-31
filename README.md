@@ -1,4 +1,4 @@
-![My Header](https://i.imgur.com/hH7jvOT.png)
+![My Header](https://i.imgur.com/AjZE9YI.png)
 
 ## My name is Marco Chavez
 
