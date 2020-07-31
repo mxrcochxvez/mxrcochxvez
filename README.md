@@ -1,4 +1,4 @@
-<img src="https://imgur.com/hH7jvOT" alt="My Header" />
+![My Header](https://imgur.com/hH7jvOT)
 
 ### Hi there 👋
 
