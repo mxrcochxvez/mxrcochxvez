@@ -1,4 +1,4 @@
-<img src="./imgs/GitHubHeader.png" alt="My Header" />
+<img src="https://ibb.co/7G3T2Qg" alt="My Header" />
 
 ### Hi there 👋
 
