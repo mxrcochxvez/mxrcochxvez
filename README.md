@@ -1,4 +1,4 @@
-<img src="https://ibb.co/7G3T2Qg" alt="My Header" />
+<img src="https://imgur.com/hH7jvOT" alt="My Header" />
 
 ### Hi there 👋
 
