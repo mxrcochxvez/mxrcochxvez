@@ -1,6 +1,11 @@
 ![My Header](https://i.imgur.com/hH7jvOT.png)
 
 ### Hi there 👋
+## My name is Marco Chavez
+
+and I am a JavaScript fanatic! I spend most of my time writing small applications in React, or fullstack applications with NodeJS.
+
+While I am not working on web applications I am more then likely working on automation with Python, or bot development with the Discord.js library.
 
 <!--
 **mxrcochxvez/mxrcochxvez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
