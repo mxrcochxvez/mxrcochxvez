@@ -1,0 +1,46 @@
+name: Refresh profile signal
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - "scripts/generate-profile.mjs"
+      - ".github/workflows/update-profile.yml"
+  schedule:
+    - cron: "17 6 * * *"
+      timezone: "America/Los_Angeles"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-signal
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate live GitHub signal
+        run: node scripts/generate-profile.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: mxrcochxvez
+
+      - name: Commit refreshed asset
+        run: |
+          if git diff --quiet -- assets/github-signal.svg; then
+            echo "Profile signal is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-signal.svg
+          git commit -m "chore: refresh live profile signal"
+          git push
