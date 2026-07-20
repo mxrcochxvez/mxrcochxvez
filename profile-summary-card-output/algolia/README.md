@@ -42,3 +42,23 @@
 ```
 
     
+
+---
+
+![](./3-stats.svg)
+
+```
+![](https://raw.githubusercontent.com/mxrcochxvez/mxrcochxvez/profile-refresh-2026/profile-summary-card-output/algolia/3-stats.svg)
+```
+
+    
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/mxrcochxvez/mxrcochxvez/profile-refresh-2026/profile-summary-card-output/algolia/4-productive-time.svg)
+```
+
+    
