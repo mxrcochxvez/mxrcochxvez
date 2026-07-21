@@ -24,11 +24,11 @@
   </defs>
   <style>
     .wire { stroke-dasharray:7 9; animation:flow 12s linear infinite; }
-    .node { animation:breathe 4s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+    .node { animation:breathe 4s ease-in-out infinite; }
     .n2 { animation-delay:.6s }.n3 { animation-delay:1.2s }.n4 { animation-delay:1.8s }
     .n5 { animation-delay:2.4s }.n6 { animation-delay:3s }
     @keyframes flow { to { stroke-dashoffset:-128 } }
-    @keyframes breathe { 0%,100% { opacity:.78; transform:scale(.98) } 50% { opacity:1; transform:scale(1.035) } }
+    @keyframes breathe { 0%,100% { opacity:.78 } 50% { opacity:1 } }
     @media (prefers-reduced-motion: reduce) { .wire,.node { animation:none!important } }
   </style>
 
