@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Marco Chavez Jr. — Software Architect, Product Engineer, and AI Builder</title>
+  <desc id="desc">Animated dark blue Hexacomb-themed banner with orange and cyan honeycomb shapes, Marco's name, and engineering specialties.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050D16"/>
+      <stop offset="48%" stop-color="#0B2D43"/>
+      <stop offset="100%" stop-color="#102332"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F58025"/>
+      <stop offset="100%" stop-color="#FFB35E"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#64D8FF"/>
+      <stop offset="100%" stop-color="#258BC2"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="76%" cy="46%" r="65%">
+      <stop offset="0%" stop-color="#F58025" stop-opacity=".22"/>
+      <stop offset="42%" stop-color="#1387B8" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#071522" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#8BC5E3" stroke-opacity=".05"/>
+    </pattern>
+    <pattern id="hexPattern" width="72" height="62.35" patternUnits="userSpaceOnUse">
+      <path d="M18 1H54L71 31.175 54 61.35H18L1 31.175Z" fill="none" stroke="#91D6F4" stroke-opacity=".11"/>
+    </pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="round">
+      <rect x="8" y="8" width="1184" height="374" rx="30"/>
+    </clipPath>
+    <path id="flightPath" d="M0 0 C80 -68 198 52 308 -46" fill="none"/>
+  </defs>
+
+  <style>
+    .pulse { animation: pulse 3.5s ease-in-out infinite; transform-origin: center; }
+    .pulse2 { animation: pulse 3.5s ease-in-out 1.1s infinite; transform-origin: center; }
+    .dash { animation: dash 11s linear infinite; }
+    .cursor { animation: blink 1s steps(2, start) infinite; }
+    .scan { animation: scan 7s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity:.45; transform:scale(.96) } 50% { opacity:1; transform:scale(1.04) } }
+    @keyframes dash { to { stroke-dashoffset:-160 } }
+    @keyframes blink { 50% { opacity:0 } }
+    @keyframes scan { 0%,100% { transform:translateX(-140px); opacity:0 } 18%,82% { opacity:.16 } 50% { transform:translateX(1180px); opacity:.04 } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse,.pulse2,.dash,.cursor,.scan { animation:none !important; }
+    }
+  </style>
+
+  <g clip-path="url(#round)">
+    <rect x="8" y="8" width="1184" height="374" rx="30" fill="url(#background)"/>
+    <rect x="8" y="8" width="1184" height="374" rx="30" fill="url(#grid)"/>
+    <rect x="8" y="8" width="1184" height="374" rx="30" fill="url(#glow)"/>
+    <rect x="650" y="-24" width="620" height="450" fill="url(#hexPattern)" transform="rotate(-5 960 190)"/>
+    <rect class="scan" x="0" y="8" width="120" height="374" fill="url(#cyan)" opacity=".08" transform="skewX(-18)"/>
+
+    <circle cx="1084" cy="52" r="135" fill="#F58025" opacity=".045"/>
+    <circle cx="965" cy="315" r="185" fill="#4CC9F0" opacity=".035"/>
+
+    <g transform="translate(804 54)">
+      <path d="M100 8H214L271 107 214 206H100L43 107Z" fill="#081B29" stroke="url(#accent)" stroke-width="4"/>
+      <path class="pulse" d="M123 35H191L225 94 191 153H123L89 94Z" fill="url(#accent)" opacity=".96"/>
+      <path d="M140 56H174L191 85 174 114H140L123 85Z" fill="#102C40"/>
+      <path class="pulse2" d="M150 70H164L171 82 164 94H150L143 82Z" fill="#6BE1FF" filter="url(#softGlow)"/>
+
+      <path d="M22 124H80L109 174 80 224H22L-7 174Z" fill="#0A2538" stroke="url(#cyan)" stroke-width="3"/>
+      <path d="M224 170H284L314 222 284 274H224L194 222Z" fill="#0A2233" stroke="#F58025" stroke-width="3"/>
+      <path d="M277 56H323L346 96 323 136H277L254 96Z" fill="#0D293D" stroke="#69D9FF" stroke-opacity=".55" stroke-width="2"/>
+      <path d="M76 227H118L139 263 118 299H76L55 263Z" fill="#0C2638" stroke="#F9A04B" stroke-opacity=".62" stroke-width="2"/>
+
+      <path class="dash" d="M53 174C96 143 112 129 132 111M208 141C234 167 243 184 252 204M225 98C248 97 265 96 288 96"
+            fill="none" stroke="#91DDF8" stroke-opacity=".72" stroke-width="2" stroke-dasharray="9 8"/>
+    </g>
+
+    <g transform="translate(820 278)">
+      <g>
+        <ellipse cx="0" cy="0" rx="7" ry="4" fill="#F58025"/>
+        <circle cx="-6" cy="0" r="4" fill="#FFD06F"/>
+        <path d="M-1 -3L3 -8M-1 3L3 8" stroke="#BDEEFF" stroke-width="2" stroke-linecap="round"/>
+        <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+          <mpath href="#flightPath"/>
+        </animateMotion>
+      </g>
+    </g>
+
+    <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+      <text x="72" y="88" fill="#A7DDF5" font-size="18" font-weight="750" letter-spacing="3.8">SOFTWARE ARCHITECT • PRODUCT ENGINEER • AI BUILDER</text>
+      <text x="68" y="159" fill="#FFFFFF" font-size="58" font-weight="820" letter-spacing="-1.6">Marco Chavez Jr.</text>
+      <rect x="70" y="185" width="500" height="5" rx="2.5" fill="url(#accent)"/>
+
+      <text x="72" y="231" fill="#E4F2F8" font-size="25" font-weight="540">I turn complicated workflows into software</text>
+      <text x="72" y="264" fill="#E4F2F8" font-size="25" font-weight="540">that feels simple, fast, and dependable<tspan class="cursor" fill="#F58025">_</tspan></text>
+
+      <g transform="translate(72 302)">
+        <rect width="132" height="38" rx="19" fill="#FFF" fill-opacity=".07" stroke="#FFF" stroke-opacity=".13"/>
+        <text x="66" y="25" text-anchor="middle" fill="#FFF" font-size="14" font-weight="750">FULL STACK</text>
+
+        <rect x="146" width="114" height="38" rx="19" fill="#FFF" fill-opacity=".07" stroke="#FFF" stroke-opacity=".13"/>
+        <text x="203" y="25" text-anchor="middle" fill="#FFF" font-size="14" font-weight="750">AI + MCP</text>
+
+        <rect x="274" width="154" height="38" rx="19" fill="#FFF" fill-opacity=".07" stroke="#FFF" stroke-opacity=".13"/>
+        <text x="351" y="25" text-anchor="middle" fill="#FFF" font-size="14" font-weight="750">ACCESSIBILITY</text>
+
+        <rect x="442" width="134" height="38" rx="19" fill="#FFF" fill-opacity=".07" stroke="#FFF" stroke-opacity=".13"/>
+        <text x="509" y="25" text-anchor="middle" fill="#FFF" font-size="14" font-weight="750">LEADERSHIP</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="8" y="8" width="1184" height="374" rx="30" fill="none" stroke="#62B7DF" stroke-opacity=".22" stroke-width="2"/>
+</svg>

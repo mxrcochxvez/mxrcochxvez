@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="405" viewBox="0 0 1200 405" role="img" aria-labelledby="title desc">
+  <title id="title">Marco Chavez Jr. live GitHub activity signal</title>
+  <desc id="desc">A self-generated GitHub activity dashboard that will update automatically after the profile redesign is merged.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06121C"/>
+      <stop offset="100%" stop-color="#0C2A3D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F58025"/>
+      <stop offset="100%" stop-color="#FFBD72"/>
+    </linearGradient>
+    <pattern id="hex" width="54" height="46.8" patternUnits="userSpaceOnUse">
+      <path d="M13.5 1H40.5L53 23.4 40.5 45.8H13.5L1 23.4Z" fill="none" stroke="#8DD8F5" stroke-opacity=".055"/>
+    </pattern>
+    <pattern id="cells" width="17" height="17" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="13" height="13" rx="3" fill="#102838"/>
+    </pattern>
+    <path id="beePath" d="M0 0 C171 -43 315 27 482 -16 S783 -33 926 -4" fill="none"/>
+  </defs>
+  <style>
+    .dash { stroke-dasharray:8 11; animation:flow 10s linear infinite; }
+    .sync { animation:pulse 2.4s ease-in-out infinite; }
+    @keyframes flow { to { stroke-dashoffset:-152 } }
+    @keyframes pulse { 0%,100% { opacity:.45 } 50% { opacity:1 } }
+    @media (prefers-reduced-motion: reduce) { .dash,.sync { animation:none!important } }
+  </style>
+
+  <rect x="8" y="8" width="1184" height="389" rx="28" fill="url(#bg)"/>
+  <rect x="8" y="8" width="1184" height="389" rx="28" fill="url(#hex)"/>
+  <rect x="8" y="8" width="1184" height="389" rx="28" fill="none" stroke="#5EBDE5" stroke-opacity=".18" stroke-width="2"/>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <text x="54" y="53" fill="#A9E1F6" font-size="17" font-weight="800" letter-spacing="3">LIVE GITHUB SIGNAL</text>
+    <text x="1146" y="53" text-anchor="end" fill="#789CAB" font-size="12">self-generated • no third-party stats service</text>
+
+    <g transform="translate(54 88)">
+      <rect width="252" height="86" rx="18" fill="#FFFFFF" fill-opacity=".045" stroke="#52C8EC" stroke-opacity=".38"/>
+      <text x="20" y="26" fill="#84AFC2" font-size="12" font-weight="750" letter-spacing="1.8">PUBLIC BUILDS</text>
+      <text x="20" y="58" fill="#B8EDFF" font-size="28" font-weight="850">29</text>
+      <text x="232" y="58" text-anchor="end" fill="#7495A3" font-size="11">owner repos</text>
+    </g>
+    <g transform="translate(326 88)">
+      <rect width="252" height="86" rx="18" fill="#FFFFFF" fill-opacity=".045" stroke="#52C8EC" stroke-opacity=".38"/>
+      <text x="20" y="26" fill="#84AFC2" font-size="12" font-weight="750" letter-spacing="1.8">FOLLOWERS</text>
+      <text x="20" y="58" fill="#B8EDFF" font-size="28" font-weight="850">37</text>
+      <text x="232" y="58" text-anchor="end" fill="#7495A3" font-size="11">community</text>
+    </g>
+    <g transform="translate(598 88)">
+      <rect width="252" height="86" rx="18" fill="#FFFFFF" fill-opacity=".045" stroke="#F58025" stroke-opacity=".38"/>
+      <text x="20" y="26" fill="#84AFC2" font-size="12" font-weight="750" letter-spacing="1.8">YEARLY SIGNAL</text>
+      <text class="sync" x="20" y="58" fill="#FFB361" font-size="24" font-weight="850">SYNCING</text>
+      <text x="232" y="58" text-anchor="end" fill="#7495A3" font-size="11">contributions</text>
+    </g>
+    <g transform="translate(870 88)">
+      <rect width="252" height="86" rx="18" fill="#FFFFFF" fill-opacity=".045" stroke="#F58025" stroke-opacity=".38"/>
+      <text x="20" y="26" fill="#84AFC2" font-size="12" font-weight="750" letter-spacing="1.8">STARS EARNED</text>
+      <text class="sync" x="20" y="58" fill="#FFB361" font-size="24" font-weight="850">SYNCING</text>
+      <text x="232" y="58" text-anchor="end" fill="#7495A3" font-size="11">public repos</text>
+    </g>
+
+    <text x="54" y="228" fill="#7EA7B9" font-size="12" font-weight="750" letter-spacing="1.5">LAST 12 MONTHS</text>
+    <text x="54" y="257" fill="#789CAB" font-size="12">Mon</text>
+    <text x="54" y="291" fill="#789CAB" font-size="12">Wed</text>
+    <text x="54" y="325" fill="#789CAB" font-size="12">Fri</text>
+    <rect x="168" y="225" width="901" height="119" fill="url(#cells)"/>
+    <text x="618" y="291" text-anchor="middle" fill="#A9DFF3" font-size="16" font-weight="700">First live refresh runs when the redesign lands on master</text>
+
+    <path class="dash" d="M164 354 C335 311 479 381 646 338 S947 321 1092 350" fill="none" stroke="url(#accent)" stroke-opacity=".48" stroke-width="2"/>
+    <g transform="translate(164 354)">
+      <ellipse cx="0" cy="0" rx="8" ry="5" fill="#F58025"/>
+      <circle cx="-7" cy="0" r="4.5" fill="#FFD16F"/>
+      <path d="M-1-3L4-9M-1 3L4 9" stroke="#BCEEFF" stroke-width="2" stroke-linecap="round"/>
+      <animateMotion dur="9s" repeatCount="indefinite" rotate="auto"><mpath href="#beePath"/></animateMotion>
+    </g>
+
+    <text x="54" y="377" fill="#668A9A" font-size="11">Generated from GitHub GraphQL</text>
+    <text x="1146" y="377" text-anchor="end" fill="#668A9A" font-size="11">Ready for first refresh</text>
+  </g>
+</svg>

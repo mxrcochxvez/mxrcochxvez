@@ -1,78 +1,130 @@
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Marco Chavez Jr. — Software Architect, Product Engineer, and AI Builder" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/marco-chavez-jr-334514b4/"><strong>LinkedIn</strong></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/mxrcochxvez/portfolio"><strong>Portfolio</strong></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/mxrcochxvez/hexacombllc"><strong>Hexacomb LLC</strong></a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/mxrcochxvez?tab=repositories"><strong>All repositories</strong></a>
+</p>
+
+## Hey, I'm Marco
+
+I'm a **software architect, technical lead, and full-stack product engineer** based in California's Central Valley. I build software that turns complicated business workflows into experiences that feel clear, fast, accessible, and dependable.
+
+My work spans ecommerce, mobile SaaS, internal operations, AI agents, local model tooling, and developer platforms. I am happiest when I can own the whole problem: discovery, architecture, implementation, documentation, mentoring, accessibility, and the last 10% of polish that users actually feel.
 
 <table>
-    <tr>
-        <td><img src="https://raw.githubusercontent.com/mxrcochxvez/mxrcochxvez/master/profile-summary-card-output/city_lights/0-profile-details.svg"></td>
-        <td><img src="https://raw.githubusercontent.com/mxrcochxvez/mxrcochxvez/master/profile-summary-card-output/city_lights/1-repos-per-language.svg"></td>
-    </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Currently building</strong><br />
+      Self-hosted AI workspaces, agent workflows, and practical automations.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Known for</strong><br />
+      Product ownership, technical clarity, accessibility, and mentorship.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Optimizing for</strong><br />
+      Useful software, maintainable systems, and measurable business impact.
+    </td>
+  </tr>
 </table>
 
-<table>
-    <thead>
-        <tr>
-            <th>Languages I Love</th>
-            <th>Languages I am Learning</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
-                <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
-                <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
-            </td>
-            <td>
-                <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
-                <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white">
-                <img src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white">
-            </td>
-        </tr>
-    </tbody>
-</table>
+## Live GitHub signal
+
+<p align="center">
+  <img src="./assets/github-signal.svg" alt="Live GitHub repositories, followers, contributions, stars, and contribution activity" width="100%" />
+</p>
+
+This visualization is generated **inside this repository** from GitHub's GraphQL API and refreshed automatically. The profile keeps working even when a third-party stats-card service disappears.
+
+## Selected builds
+
+<p align="center">
+  <a href="https://github.com/mxrcochxvez/odysseus-babbage"><img src="./assets/projects/odysseus.svg" alt="Odysseus Babbage project" width="49%" /></a>
+  <a href="https://github.com/mxrcochxvez/Promptfu"><img src="./assets/projects/promptfu.svg" alt="Promptfu LMS project" width="49%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/mxrcochxvez/react-movie-search"><img src="./assets/projects/movies.svg" alt="React Movie Search project" width="49%" /></a>
+  <a href="https://github.com/mxrcochxvez/hotel-server-graphql"><img src="./assets/projects/hotel.svg" alt="Hotel GraphQL Server project" width="49%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://marco-react-movies-search.netlify.app/">Launch the React Movie Search demo ↗</a>
+</p>
+
+## My engineering system
+
+<p align="center">
+  <img src="./assets/engineering-system.svg" alt="Marco's product engineering capability map" width="100%" />
+</p>
+
+<details>
+  <summary><strong>Open the expanded toolkit</strong></summary>
+  <br />
+
+| Layer | Technologies and practices |
+|---|---|
+| **Frontend** | TypeScript, JavaScript, React, Vue, Next.js, Nuxt, React Native |
+| **Backend** | Node.js, GraphQL, REST, Apollo Server, Express, NestJS |
+| **Data** | PostgreSQL, SQLite, MySQL, MongoDB, Drizzle ORM |
+| **AI systems** | Agent workflows, MCP, local models, retrieval, prompt tooling |
+| **Delivery** | Docker, GitHub Actions, Netlify, AWS, CI/CD |
+| **Quality** | WCAG accessibility, testing, performance, documentation |
+| **Leadership** | Architecture, mentorship, code review, Agile delivery, team agreements |
+
+</details>
+
+## What I bring to a product team
 
 <table>
-    <thead>
-        <tr>
-            <th>Frontend Frameworks/Libraries</th>
-            <th>Backend Frameworks/Libraries</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
-                <img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D">
-                <img src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black">
-            </td>
-            <td>
-                <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white">
-                <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
-                <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB">
-                <img src="https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD">
-            </td>
-        </tr>
-    </tbody>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01. Ownership without tunnel vision</h3>
+      <p>I connect implementation details to user needs, operational workflows, and business outcomes. I can move from an ambiguous request to a shipped, supportable product.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02. Architecture people can follow</h3>
+      <p>I use clear boundaries, documentation, examples, and practical standards so a system is understandable beyond the person who first built it.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03. Accessibility as engineering quality</h3>
+      <p>I treat WCAG, keyboard interaction, semantic structure, and inclusive UX as part of the definition of done, not a cleanup phase.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>04. Leadership that grows the team</h3>
+      <p>I enjoy mentoring engineers, improving feedback loops, and explaining the reasoning behind decisions so the whole team becomes more capable.</p>
+    </td>
+  </tr>
 </table>
 
-<table>
-    <thead>
-        <tr>
-            <th>CSS Frameworks/Libraries</th>
-            <th>Database</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">
-                <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white">
-                <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white">
-                <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
-            </td>
-            <td>
-                <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
-                <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
-                <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
-            </td>
-        </tr>
-    </tbody>
-</table>
+## The build loop
+
+```text
+UNDERSTAND → MODEL → BUILD → VALIDATE → DOCUMENT → IMPROVE
+     ↑                                                  ↓
+     └────────────── keep the feedback loop short ──────┘
+```
+
+> Make the complicated feel simple. Build for the person using it. Leave the codebase easier to understand than you found it.
+
+## Outside the editor
+
+Family time, running, learning new systems, Star Wars, and occasionally turning a small idea into a much larger side project than originally planned.
+
+---
+
+<p align="center">
+  <strong>Have an interesting product, platform, or automation problem?</strong><br />
+  <a href="https://www.linkedin.com/in/marco-chavez-jr-334514b4/">Start a conversation on LinkedIn</a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/mxrcochxvez?tab=repositories">Explore more of my work</a>
+</p>
