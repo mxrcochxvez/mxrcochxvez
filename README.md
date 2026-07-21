@@ -108,11 +108,9 @@ This visualization is generated **inside this repository** from GitHub's GraphQL
 
 ## The build loop
 
-```text
-UNDERSTAND → MODEL → BUILD → VALIDATE → DOCUMENT → IMPROVE
-     ↑                                                  ↓
-     └────────────── keep the feedback loop short ──────┘
-```
+<p align="center">
+  <img src="./assets/build-loop.svg" alt="Animated product engineering loop from understanding through continuous improvement" width="100%" />
+</p>
 
 > Make the complicated feel simple. Build for the person using it. Leave the codebase easier to understand than you found it.
 
