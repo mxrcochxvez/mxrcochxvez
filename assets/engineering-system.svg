@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
   <title id="title">Marco Chavez Jr. engineering system</title>
-  <desc id="desc">An animated technology constellation centered on product engineering, surrounded by frontend, backend, data, AI, delivery, accessibility, and leadership capabilities.</desc>
+  <desc id="desc">A technology constellation centered on product engineering, surrounded by frontend, backend, data, AI, delivery, accessibility, and leadership capabilities.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#07131E"/>
@@ -24,12 +24,8 @@
   </defs>
   <style>
     .wire { stroke-dasharray:7 9; animation:flow 12s linear infinite; }
-    .node { animation:breathe 4s ease-in-out infinite; }
-    .n2 { animation-delay:.6s }.n3 { animation-delay:1.2s }.n4 { animation-delay:1.8s }
-    .n5 { animation-delay:2.4s }.n6 { animation-delay:3s }
     @keyframes flow { to { stroke-dashoffset:-128 } }
-    @keyframes breathe { 0%,100% { opacity:.78 } 50% { opacity:1 } }
-    @media (prefers-reduced-motion: reduce) { .wire,.node { animation:none!important } }
+    @media (prefers-reduced-motion: reduce) { .wire { animation:none!important } }
   </style>
 
   <rect x="8" y="8" width="1184" height="414" rx="28" fill="url(#bg)"/>
@@ -52,49 +48,49 @@
       <circle cx="0" cy="0" r="8" fill="#BDEFFF" filter="url(#glow)" opacity=".78"/>
     </g>
 
-    <g class="node" transform="translate(245 93)">
+    <g transform="translate(245 93)">
       <path d="M-70 0L-35-61H35L70 0 35 61H-35Z" fill="#0B2B40" stroke="url(#cyan)" stroke-width="2.5"/>
       <text y="-8" text-anchor="middle" fill="#FFF" font-size="17" font-weight="780">FRONTEND</text>
       <text y="18" text-anchor="middle" fill="#A7DDF3" font-size="13">React · Vue · Next</text>
     </g>
 
-    <g class="node n2" transform="translate(449 82)">
+    <g transform="translate(449 82)">
       <path d="M-70 0L-35-61H35L70 0 35 61H-35Z" fill="#0B2B40" stroke="#F59A44" stroke-width="2.5"/>
       <text y="-8" text-anchor="middle" fill="#FFF" font-size="17" font-weight="780">BACKEND</text>
       <text y="18" text-anchor="middle" fill="#FFD2A6" font-size="13">Node · REST · APIs</text>
     </g>
 
-    <g class="node n3" transform="translate(755 82)">
+    <g transform="translate(755 82)">
       <path d="M-70 0L-35-61H35L70 0 35 61H-35Z" fill="#0B2B40" stroke="url(#cyan)" stroke-width="2.5"/>
       <text y="-8" text-anchor="middle" fill="#FFF" font-size="17" font-weight="780">DATA</text>
       <text y="18" text-anchor="middle" fill="#A7DDF3" font-size="13">Postgres · GraphQL</text>
     </g>
 
-    <g class="node n4" transform="translate(960 93)">
+    <g transform="translate(960 93)">
       <path d="M-70 0L-35-61H35L70 0 35 61H-35Z" fill="#0B2B40" stroke="#F59A44" stroke-width="2.5"/>
       <text y="-8" text-anchor="middle" fill="#FFF" font-size="17" font-weight="780">AI SYSTEMS</text>
       <text y="18" text-anchor="middle" fill="#FFD2A6" font-size="13">Agents · MCP · Local</text>
     </g>
 
-    <g class="node n5" transform="translate(208 252)">
+    <g transform="translate(208 252)">
       <path d="M-70 0L-35-61H35L70 0 35 61H-35Z" fill="#0B2B40" stroke="#F59A44" stroke-width="2.5"/>
       <text y="-8" text-anchor="middle" fill="#FFF" font-size="17" font-weight="780">MOBILE</text>
       <text y="18" text-anchor="middle" fill="#FFD2A6" font-size="13">React Native · UX</text>
     </g>
 
-    <g class="node n6" transform="translate(382 340)">
+    <g transform="translate(382 340)">
       <path d="M-70 0L-35-61H35L70 0 35 61H-35Z" fill="#0B2B40" stroke="url(#cyan)" stroke-width="2.5"/>
       <text y="-8" text-anchor="middle" fill="#FFF" font-size="17" font-weight="780">DELIVERY</text>
       <text y="18" text-anchor="middle" fill="#A7DDF3" font-size="13">Docker · CI/CD · AWS</text>
     </g>
 
-    <g class="node n2" transform="translate(818 340)">
+    <g transform="translate(818 340)">
       <path d="M-70 0L-35-61H35L70 0 35 61H-35Z" fill="#0B2B40" stroke="#F59A44" stroke-width="2.5"/>
       <text y="-8" text-anchor="middle" fill="#FFF" font-size="17" font-weight="780">QUALITY</text>
       <text y="18" text-anchor="middle" fill="#FFD2A6" font-size="13">Testing · Performance</text>
     </g>
 
-    <g class="node n4" transform="translate(992 252)">
+    <g transform="translate(992 252)">
       <path d="M-70 0L-35-61H35L70 0 35 61H-35Z" fill="#0B2B40" stroke="url(#cyan)" stroke-width="2.5"/>
       <text y="-8" text-anchor="middle" fill="#FFF" font-size="17" font-weight="780">LEADERSHIP</text>
       <text y="18" text-anchor="middle" fill="#A7DDF3" font-size="13">Mentorship · Clarity</text>
