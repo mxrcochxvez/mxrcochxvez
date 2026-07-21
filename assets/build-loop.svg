@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+  <title id="title">Marco Chavez Jr. build loop</title>
+  <desc id="desc">An animated product engineering loop moving through understand, model, build, validate, document, and improve, then returning through a short feedback loop.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07131E"/>
+      <stop offset="100%" stop-color="#0D2A3C"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFB15C"/>
+      <stop offset="100%" stop-color="#F58025"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#72E2FF"/>
+      <stop offset="100%" stop-color="#238ABF"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#A4DDF3" opacity=".07"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L9 4.5 0 9Z" fill="#74D7F6"/>
+    </marker>
+  </defs>
+
+  <style>
+    .flow { stroke-dasharray: 10 12; animation: flow 5s linear infinite; }
+    .stage-outline { stroke-opacity: .42; animation: highlight 7.2s ease-in-out infinite; }
+    .s2 { animation-delay: 1.2s; }
+    .s3 { animation-delay: 2.4s; }
+    .s4 { animation-delay: 3.6s; }
+    .s5 { animation-delay: 4.8s; }
+    .s6 { animation-delay: 6s; }
+    .signal { animation: signal 7.2s ease-in-out infinite; }
+    .g2 { animation-delay: 1.2s; }
+    .g3 { animation-delay: 2.4s; }
+    .g4 { animation-delay: 3.6s; }
+    .g5 { animation-delay: 4.8s; }
+    .g6 { animation-delay: 6s; }
+    @keyframes flow { to { stroke-dashoffset: -132; } }
+    @keyframes highlight {
+      0%, 11%, 100% { stroke-opacity: .42; stroke-width: 2.5; }
+      5% { stroke-opacity: 1; stroke-width: 4.5; }
+    }
+    @keyframes signal {
+      0%, 11%, 100% { opacity: .18; }
+      5% { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .flow, .stage-outline, .signal { animation: none !important; }
+      .stage-outline { stroke-opacity: .72; }
+      .signal { opacity: .55; }
+    }
+  </style>
+
+  <rect x="8" y="8" width="1184" height="274" rx="28" fill="url(#bg)"/>
+  <rect x="8" y="8" width="1184" height="274" rx="28" fill="url(#dots)"/>
+  <rect x="8" y="8" width="1184" height="274" rx="28" fill="none" stroke="#5FB8DE" stroke-opacity=".2" stroke-width="2"/>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <text x="48" y="49" fill="#9ED9F2" font-size="15" font-weight="750" letter-spacing="3">THE BUILD LOOP</text>
+    <text x="1150" y="49" text-anchor="end" fill="#7FBFD9" font-size="13" font-weight="650">KEEP THE FEEDBACK LOOP SHORT</text>
+
+    <g fill="none" stroke="#74D7F6" stroke-opacity=".5" stroke-width="2.5" marker-end="url(#arrow)">
+      <path class="flow" d="M181 116H231"/>
+      <path class="flow" d="M376 116H426"/>
+      <path class="flow" d="M571 116H621"/>
+      <path class="flow" d="M766 116H816"/>
+      <path class="flow" d="M961 116H1011"/>
+    </g>
+
+    <path class="flow" d="M1085 169V201C1085 220 1068 232 1047 232H153C130 232 115 217 115 198V169"
+          fill="none" stroke="url(#orange)" stroke-opacity=".7" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12" marker-end="url(#arrow)"/>
+
+    <g transform="translate(110 116)">
+      <path class="stage-outline" d="M-71 0L-36-61H36L71 0 36 61H-36Z" fill="#0B2B40" stroke="url(#cyan)" stroke-width="2.5"/>
+      <circle class="signal" cx="0" cy="-37" r="7" fill="#72E2FF" filter="url(#glow)" opacity=".18"/>
+      <text y="-7" text-anchor="middle" fill="#FFF" font-size="16" font-weight="800">UNDERSTAND</text>
+      <text y="19" text-anchor="middle" fill="#A7DDF3" font-size="12.5">users · context</text>
+    </g>
+
+    <g transform="translate(305 116)">
+      <path class="stage-outline s2" d="M-71 0L-36-61H36L71 0 36 61H-36Z" fill="#0B2B40" stroke="#F59A44" stroke-width="2.5"/>
+      <circle class="signal g2" cx="0" cy="-37" r="7" fill="#F59A44" filter="url(#glow)" opacity=".18"/>
+      <text y="-7" text-anchor="middle" fill="#FFF" font-size="16" font-weight="800">MODEL</text>
+      <text y="19" text-anchor="middle" fill="#FFD2A6" font-size="12.5">flows · architecture</text>
+    </g>
+
+    <g transform="translate(500 116)">
+      <path class="stage-outline s3" d="M-71 0L-36-61H36L71 0 36 61H-36Z" fill="#0B2B40" stroke="url(#cyan)" stroke-width="2.5"/>
+      <circle class="signal g3" cx="0" cy="-37" r="7" fill="#72E2FF" filter="url(#glow)" opacity=".18"/>
+      <text y="-7" text-anchor="middle" fill="#FFF" font-size="16" font-weight="800">BUILD</text>
+      <text y="19" text-anchor="middle" fill="#A7DDF3" font-size="12.5">ship · integrate</text>
+    </g>
+
+    <g transform="translate(695 116)">
+      <path class="stage-outline s4" d="M-71 0L-36-61H36L71 0 36 61H-36Z" fill="#0B2B40" stroke="#F59A44" stroke-width="2.5"/>
+      <circle class="signal g4" cx="0" cy="-37" r="7" fill="#F59A44" filter="url(#glow)" opacity=".18"/>
+      <text y="-7" text-anchor="middle" fill="#FFF" font-size="16" font-weight="800">VALIDATE</text>
+      <text y="19" text-anchor="middle" fill="#FFD2A6" font-size="12.5">test · measure</text>
+    </g>
+
+    <g transform="translate(890 116)">
+      <path class="stage-outline s5" d="M-71 0L-36-61H36L71 0 36 61H-36Z" fill="#0B2B40" stroke="url(#cyan)" stroke-width="2.5"/>
+      <circle class="signal g5" cx="0" cy="-37" r="7" fill="#72E2FF" filter="url(#glow)" opacity=".18"/>
+      <text y="-7" text-anchor="middle" fill="#FFF" font-size="16" font-weight="800">DOCUMENT</text>
+      <text y="19" text-anchor="middle" fill="#A7DDF3" font-size="12.5">explain · enable</text>
+    </g>
+
+    <g transform="translate(1085 116)">
+      <path class="stage-outline s6" d="M-71 0L-36-61H36L71 0 36 61H-36Z" fill="#0B2B40" stroke="#F59A44" stroke-width="2.5"/>
+      <circle class="signal g6" cx="0" cy="-37" r="7" fill="#F59A44" filter="url(#glow)" opacity=".18"/>
+      <text y="-7" text-anchor="middle" fill="#FFF" font-size="16" font-weight="800">IMPROVE</text>
+      <text y="19" text-anchor="middle" fill="#FFD2A6" font-size="12.5">learn · iterate</text>
+    </g>
+
+    <g transform="translate(600 232)">
+      <rect x="-165" y="-18" width="330" height="36" rx="18" fill="#FFF" fill-opacity=".055" stroke="#FFF" stroke-opacity=".12"/>
+      <text y="5" text-anchor="middle" fill="#D5EBF5" font-size="13.5" font-weight="700">FEEDBACK RETURNS TO UNDERSTANDING</text>
+    </g>
+  </g>
+</svg>
